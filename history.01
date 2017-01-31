@@ -1,0 +1,17 @@
+ 2044  git clone https://github.com/alexKleider/pathagar.git
+ 2048  cd pathagar
+ 2053  git branch v1-5
+ 2054  git checkout v1-5 
+ 2055  vim require.1-5  # ==> django==1.5.12
+ 2057  cd ..
+ 2058  virtualenv v1-5
+ 2060  source v1-5/bin/activate
+ 2061  cd pathagar/
+ 2064  sudo apt-get install mysql-server
+ 2066  sudo apt-get install libmysqlclient-dev
+ 2067  pip install -r require.1-5 
+ 2069  ./manage.py runserver
+ 2072  grep list_detail
+ 2073  git grep list_detail
+ 2074  vim books/views.py
+ 2078  history > history
