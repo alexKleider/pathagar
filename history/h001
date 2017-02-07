@@ -9,9 +9,9 @@
  2061  cd pathagar/
  2064  sudo apt-get install mysql-server
  2066  sudo apt-get install libmysqlclient-dev
- 2067  pip install -r require.1-5 
+ 2067  pip install -r require.v1-5 
  2069  ./manage.py runserver
  2072  grep list_detail
  2073  git grep list_detail
  2074  vim books/views.py
- 2078  history > history
+ 2078  history > history/h001

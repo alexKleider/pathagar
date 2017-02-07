@@ -1,0 +1,6 @@
+ 2087  git add --all
+ 2088  git commit
+ 2090  git remote add upstream git@github.com:PathagarBooks/pathagar.git
+ 2091  git fetch upstream
+ 2092  git merge upstream/ubuntu-1604 
+ 2093  history > history/h002

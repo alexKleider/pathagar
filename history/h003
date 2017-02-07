@@ -1,0 +1,7 @@
+ 2070  cd /Py/pathagar/
+ 2073  . ../v1-5/bin/activate
+ 2085  vim README.rst
+ 2088  git add --all
+ 2090  cd history/
+ 2094  history > h003
+ 2095  vim h003
